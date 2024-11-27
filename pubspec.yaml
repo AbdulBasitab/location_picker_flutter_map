@@ -19,6 +19,9 @@ dependencies:
   flutter_map_cancellable_tile_provider: ^3.0.0
 
 dependency_overrides:
+  flutter_map_location_marker:
+    git:
+      https://github.com/dariocavada/flutter_map_location_marker
   location_web:
     git:
       url: https://github.com/Bilonik/flutterlocation.git
